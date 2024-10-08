@@ -1,0 +1,54 @@
+.flex-container{
+  display: flex;
+  background-color: blue;
+  flex-wrap: wrap;
+  justfy-content: enter;
+  flex-direction: column;
+}
+.item{
+  background-color: white;
+  margin: 30px;
+  padding: 50px;  
+  flex-grow: 15;
+}
+/* make the navBar a flex contanir */
+.navBar {
+  display: flex;
+  background-color: #2e89d1;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 1px 8px;
+}
+
+/* style the webpage title */
+#nav-title {
+  margin-right: auto;
+  font-size: 1.5em;
+  color: #c11506
+}
+
+
+/* stlye list items */
+
+.navBar li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+/* stlye links */
+
+.navBar a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* add hover efects */
+
+.navBar a:hover {
+  color: #010000
+}
+
+h1 {
+}
