@@ -4,12 +4,17 @@
   flex-wrap: wrap;
   justfy-content: enter;
   flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 5px -5px 7px white;
+  text-shadow: 5px 5px 10px white;
+  font-family: "drip font";
 }
 .item{
   background-color: white;
   margin: 30px;
   padding: 50px;  
   flex-grow: 15;
+  border-radius: 10px;
 }
 /* make the navBar a flex contanir */
 .navBar {
@@ -39,9 +44,9 @@
 
 /* stlye links */
 
-.navBar a {
+a {
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
 }
 
 /* add hover efects */
@@ -51,4 +56,14 @@
 }
 
 h1 {
+  font-family: papyrus;
+}
+
+body {
+  background: rgb(255,162,0);
+  background: linear-gradient(90deg, rgba(255,162,0,1) 0%, rgba(16,34,187,1) 100%);
+}
+@font-face{
+  font-family: "drip font";
+  src: url("drip.ttf");
 }
